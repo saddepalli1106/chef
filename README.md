@@ -25,3 +25,6 @@ Step 4: Then we add a layer and assign a name to that layer as Package_Installer
 Step 5: In Package_Installer layer: we create a new Instance and assign IAM roles, Operating system, subnet and SSH keys to login to that instance after creation.
 
 Step 6: So in my first layer: I used a recipe to install httpd service in my first instance.
+
+Step 7: We create a new layer and add a new instance to that layer and apply the haproxy cookbook over that instance and we can acheive load balancing.
+
